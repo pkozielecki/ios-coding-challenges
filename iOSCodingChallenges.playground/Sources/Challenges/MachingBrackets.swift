@@ -14,7 +14,7 @@ public struct MachingBrackets: Challenge {
 
 extension MachingBrackets {
 
-    fileprivate func hasMatchingBackets(candidate: String) -> Bool {
+    func hasMatchingBackets(candidate: String) -> Bool {
         guard candidate.count > 0 && candidate.count % 2 == 0 else {
             return false
         }

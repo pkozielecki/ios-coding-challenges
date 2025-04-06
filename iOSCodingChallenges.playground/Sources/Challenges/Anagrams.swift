@@ -7,7 +7,14 @@ public struct Anagrams: Challenge {
         self.data = data
     }
 
-    func groupAnagrams(candidates: [String]) -> [[String]] {
+    public func execute() -> String {
+        "\(groupAnagrams(candidates: data))"
+    }
+}
+
+extension Anagrams {
+
+    fileprivate func groupAnagrams(candidates: [String]) -> [[String]] {
         var dict = [String: [String]]()
         for candidate in candidates {
             // Lowercase and sort:
@@ -19,9 +26,5 @@ public struct Anagrams: Challenge {
             }
         }
         return dict.values.map { $0 }
-    }
-
-    public func execute() -> String {
-        "\(groupAnagrams(candidates: data))"
     }
 }
