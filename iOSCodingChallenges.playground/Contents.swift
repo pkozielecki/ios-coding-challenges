@@ -25,6 +25,17 @@ let challanges: [any Challenge] = [
     MaxThreeDifferentLetters(data: ["abcd", "dbac"]),
     MaxThreeDifferentLetters(data: ["abcd", "zxab"]),
     MaxThreeDifferentLetters(data: ["abcd", "1234"]),
+    
+    Permuations(data: "abc"),
+    Permuations(data: "aabbcc"),
+    
+    PrimeNumber(data: 0),
+    PrimeNumber(data: 1),
+    PrimeNumber(data: 2),
+    PrimeNumber(data: 3),
+    PrimeNumber(data: 4),
+    PrimeNumber(data: 21),
+    PrimeNumber(data: 111),
 ]
 
 for challenge in challanges {
