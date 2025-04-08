@@ -36,6 +36,18 @@ let challanges: [any Challenge] = [
     PrimeNumber(data: 4),
     PrimeNumber(data: 21),
     PrimeNumber(data: 111),
+    
+    BinaryReverse(data: 32),
+    BinaryReverse(data: 128),
+    BinaryReverse(data: 1),
+    BinaryReverse(data: 0),
+    
+    MissingNumbers(data: Array(0...99)),
+    MissingNumbers(data: [0,1,100]),
+    
+    FindMedian(data: [1,2,3,5,100]),
+    FindMedian(data: [1]),
+    FindMedian(data: [1,2]),
 ]
 
 for challenge in challanges {
