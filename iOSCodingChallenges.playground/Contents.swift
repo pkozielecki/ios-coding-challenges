@@ -48,6 +48,10 @@ let challanges: [any Challenge] = [
     FindMedian(data: [1,2,3,5,100]),
     FindMedian(data: [1]),
     FindMedian(data: [1,2]),
+    
+    BubbleSort(data: [1,2,3,4,5]),
+    BubbleSort(data: [5,4,3,2,1]),
+    BubbleSort(data: [1,4,60,2,1]),
 ]
 
 for challenge in challanges {
