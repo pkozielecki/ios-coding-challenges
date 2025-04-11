@@ -52,6 +52,11 @@ let challanges: [any Challenge] = [
     BubbleSort(data: [1,2,3,4,5]),
     BubbleSort(data: [5,4,3,2,1]),
     BubbleSort(data: [1,4,60,2,1]),
+    
+    IndicesOfTwoValues(data: .init(array: [1,2,3,9,4], sum: 13)),
+    IndicesOfTwoValues(data: .init(array: [1,2], sum: 3)),
+    IndicesOfTwoValues(data: .init(array: [], sum: 3)),
+    IndicesOfTwoValues(data: .init(array: [1,2,3], sum: 8)),
 ]
 
 for challenge in challanges {
