@@ -63,6 +63,12 @@ let challanges: [any Challenge] = [
     LargestContainer(data: [1]),
     LargestContainer(data: []),
     LargestContainer(data: [0,1,6,7,1,9]),
+    
+    Rainwater(data: []),
+    Rainwater(data: [1]),
+    Rainwater(data: [1,2]),
+    Rainwater(data: [1,0,3]),
+    Rainwater(data: [1,3,2,0,5,4,1,3,7]),
 ]
 
 for challenge in challanges {
