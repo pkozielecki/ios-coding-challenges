@@ -57,6 +57,12 @@ let challanges: [any Challenge] = [
     IndicesOfTwoValues(data: .init(array: [1,2], sum: 3)),
     IndicesOfTwoValues(data: .init(array: [], sum: 3)),
     IndicesOfTwoValues(data: .init(array: [1,2,3], sum: 8)),
+    
+    LargestContainer(data: [1,2,3,1,4]),
+    LargestContainer(data: [1,2]),
+    LargestContainer(data: [1]),
+    LargestContainer(data: []),
+    LargestContainer(data: [0,1,6,7,1,9]),
 ]
 
 for challenge in challanges {
