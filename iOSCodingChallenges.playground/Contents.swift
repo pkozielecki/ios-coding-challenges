@@ -74,6 +74,13 @@ let challanges: [any Challenge] = [
     HashBackSpaceStringEqual(data: ["123#", "12"]),
     HashBackSpaceStringEqual(data: ["###", ""]),
     HashBackSpaceStringEqual(data: ["##  #", ""]),
+    
+    LongestSubstring(data: ""),
+    LongestSubstring(data: "a"),
+    LongestSubstring(data: "aa"),
+    LongestSubstring(data: "ab"),
+    LongestSubstring(data: "abcbda"),
+    LongestSubstring(data: "abcccabdc"),
 ]
 
 for challenge in challanges {
