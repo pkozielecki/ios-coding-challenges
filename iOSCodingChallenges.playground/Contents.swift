@@ -69,6 +69,11 @@ let challanges: [any Challenge] = [
     Rainwater(data: [1,2]),
     Rainwater(data: [1,0,3]),
     Rainwater(data: [1,3,2,0,5,4,1,3,7]),
+    
+    HashBackSpaceStringEqual(data: ["", ""]),
+    HashBackSpaceStringEqual(data: ["123#", "12"]),
+    HashBackSpaceStringEqual(data: ["###", ""]),
+    HashBackSpaceStringEqual(data: ["##  #", ""]),
 ]
 
 for challenge in challanges {
