@@ -81,6 +81,13 @@ let challanges: [any Challenge] = [
     LongestSubstring(data: "ab"),
     LongestSubstring(data: "abcbda"),
     LongestSubstring(data: "abcccabdc"),
+    
+    AlmostPalindrome(data: "aba"),
+    AlmostPalindrome(data: ""),
+    AlmostPalindrome(data: "1"),
+    AlmostPalindrome(data: "a ba"),
+    AlmostPalindrome(data: "a b %a"),
+    AlmostPalindrome(data: "a b %aa"),
 ]
 
 for challenge in challanges {
