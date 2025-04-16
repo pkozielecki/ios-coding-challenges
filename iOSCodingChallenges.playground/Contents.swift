@@ -88,6 +88,9 @@ let challanges: [any Challenge] = [
     AlmostPalindrome(data: "a ba"),
     AlmostPalindrome(data: "a b %a"),
     AlmostPalindrome(data: "a b %aa"),
+    
+    LinkedList(data: .make(count: 5)!),
+    LinkedList(data: .init(value: 1, next: nil)),
 ]
 
 for challenge in challanges {
