@@ -45,7 +45,7 @@ extension LinkedList {
 
         public static func make(count: Int) -> Data? {
             var lastLink: Data?
-            for i in stride(from: 5, through: 1, by: -1) {
+            for i in stride(from: count, through: 1, by: -1) {
                 lastLink = Data(value: i, next: lastLink)
             }
             return lastLink

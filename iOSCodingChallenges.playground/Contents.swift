@@ -91,6 +91,10 @@ let challanges: [any Challenge] = [
     
     LinkedList(data: .make(count: 5)!),
     LinkedList(data: .init(value: 1, next: nil)),
+    
+    LinkedListDetectCycles(data: .make(count: 1)!),
+    LinkedListDetectCycles(data: .make(count: 3)!),
+    LinkedListDetectCycles(data: .makeCycledList()!),
 ]
 
 for challenge in challanges {
