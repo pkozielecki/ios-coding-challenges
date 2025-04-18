@@ -95,6 +95,13 @@ let challanges: [any Challenge] = [
     LinkedListDetectCycles(data: .make(count: 1)!),
     LinkedListDetectCycles(data: .make(count: 3)!),
     LinkedListDetectCycles(data: .makeCycledList()!),
+    
+    NotMachingBracketsRemove(data: ""),
+    NotMachingBracketsRemove(data: "()"),
+    NotMachingBracketsRemove(data: "(abcd)"),
+    NotMachingBracketsRemove(data: ")abcd()"),
+    NotMachingBracketsRemove(data: ")))"),
+    NotMachingBracketsRemove(data: ")()()"),
 ]
 
 for challenge in challanges {
