@@ -102,6 +102,10 @@ let challanges: [any Challenge] = [
     NotMachingBracketsRemove(data: ")abcd()"),
     NotMachingBracketsRemove(data: ")))"),
     NotMachingBracketsRemove(data: ")()()"),
+    
+    QuickSort(data: [1,9,4,7,2,3,6]),
+    QuickSort(data: [1]),
+    QuickSort(data: []),
 ]
 
 for challenge in challanges {
