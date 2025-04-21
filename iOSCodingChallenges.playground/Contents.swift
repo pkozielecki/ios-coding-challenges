@@ -111,6 +111,9 @@ let challanges: [any Challenge] = [
     BinarySearch(data: [1,2,3], target: 5),
     BinarySearch(data: [1,3,4,5], target: 5),
     BinarySearch(data: [1,3,5,5,5,9,8,11], target: 5),
+    
+    BinaryTreeDepth(data: .init(left: nil, right: nil)),
+    BinaryTreeDepth(data: .init(left: .init(left: nil, right: .init(left: .init(left: nil, right: nil), right: nil)), right: nil)),
 ]
 
 for challenge in challanges {
