@@ -106,6 +106,11 @@ let challanges: [any Challenge] = [
     QuickSort(data: [1,9,4,7,2,3,6]),
     QuickSort(data: [1]),
     QuickSort(data: []),
+    
+    BinarySearch(data: [], target: 5),
+    BinarySearch(data: [1,2,3], target: 5),
+    BinarySearch(data: [1,3,4,5], target: 5),
+    BinarySearch(data: [1,3,5,5,5,9,8,11], target: 5),
 ]
 
 for challenge in challanges {
