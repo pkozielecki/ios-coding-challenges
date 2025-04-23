@@ -114,6 +114,12 @@ let challanges: [any Challenge] = [
     
     BinaryTreeDepth(data: .init(left: nil, right: nil)),
     BinaryTreeDepth(data: .init(left: .init(left: nil, right: .init(left: .init(left: nil, right: nil), right: nil)), right: nil)),
+    
+    Keypad(data: [[1,2,3],[4,5,6],[7,8,9]], code: "123"),
+    Keypad(data: [[1,2,3],[4,5,6],[7,8,9]], code: "193"),
+    Keypad(data: [[4,8,1],[5,2,6],[9,3,7]], code: "123"),
+    Keypad(data: [[4,8,1],[5,2,6],[9,3,7]], code: ""),
+    
 ]
 
 for challenge in challanges {
