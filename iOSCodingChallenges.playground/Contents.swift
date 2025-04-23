@@ -120,6 +120,35 @@ let challanges: [any Challenge] = [
     Keypad(data: [[4,8,1],[5,2,6],[9,3,7]], code: "123"),
     Keypad(data: [[4,8,1],[5,2,6],[9,3,7]], code: ""),
     
+    BinaryTreeRightNodes(data: .init(left: nil, right: nil, value: 1)),
+    BinaryTreeRightNodes(data: .init(
+        left: .init(
+            left: .init(
+                left: .init(
+                    left: nil,
+                    right: nil,
+                    value: 6
+                ),
+                right: .init(
+                    left: nil,
+                    right: nil,
+                    value: 7 // (*)
+                ),
+                value: 5
+            ),
+            right: nil,
+            value: 2
+        ),
+        right: .init(
+            left: nil,
+            right: .init(
+                left: nil,
+                right: nil,
+                value: 4 // (*)
+            ),
+            value: 3),
+        value: 1)
+    ),
 ]
 
 for challenge in challanges {
