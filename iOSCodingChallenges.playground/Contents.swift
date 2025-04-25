@@ -149,6 +149,9 @@ let challanges: [any Challenge] = [
             value: 3),
         value: 1)
     ),
+    
+    
+    Traversing2DTable(data: [[1,2,3],[4,5,6],[7,8,9]]),
 ]
 
 for challenge in challanges {
