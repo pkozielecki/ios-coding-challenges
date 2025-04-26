@@ -154,6 +154,12 @@ let challanges: [any Challenge] = [
     Traversing2DTable(data: [[1,2,3],[4,5,6],[7,8,9]]),
     
     CountingIslands(data: [[1,1,1],[1,0,0],[1,0,1]]),
+    CountingIslands(data: [[0,0,0],[0,0,0],[0,0,0]]),
+    CountingIslands(data: [[1,0,0],[0,1,0],[0,0,1]]),
+    
+    FloodFill(data: [[1,1,1,2,3],[1,2,1,2,3],[1,1,1,2,1]]),
+    FloodFill(data: [[1,1,1,1,1],[1,1,1,1,1],[1,1,1,1,1]]),
+    FloodFill(data: [[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]]),
 ]
 
 for challenge in challanges {
