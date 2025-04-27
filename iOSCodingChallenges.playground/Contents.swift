@@ -160,6 +160,9 @@ let challanges: [any Challenge] = [
     FloodFill(data: [[1,1,1,2,3],[1,2,1,2,3],[1,1,1,2,1]]),
     FloodFill(data: [[1,1,1,1,1],[1,1,1,1,1],[1,1,1,1,1]]),
     FloodFill(data: [[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]]),
+    
+    RottingOranges(data: [[2,0,0,0,1],[1,1,0,0,2],[0,1,1,1,1],[0,1,0,0,1]]),
+    RottingOranges(data: [[2,0,1,0,1],[1,1,0,0,2],[0,1,1,1,1],[0,1,0,0,1]]),
 ]
 
 for challenge in challanges {
