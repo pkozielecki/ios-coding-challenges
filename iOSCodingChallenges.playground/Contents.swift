@@ -163,6 +163,8 @@ let challanges: [any Challenge] = [
     
     RottingOranges(data: [[2,0,0,0,1],[1,1,0,0,2],[0,1,1,1,1],[0,1,0,0,1]]),
     RottingOranges(data: [[2,0,1,0,1],[1,1,0,0,2],[0,1,1,1,1],[0,1,0,0,1]]),
+    
+    WallsAndGates(data: [[ArrayValues.Empty.rawValue,ArrayValues.Wall.rawValue,ArrayValues.Gate.rawValue,ArrayValues.Empty.rawValue],[ArrayValues.Empty.rawValue,ArrayValues.Empty.rawValue,ArrayValues.Empty.rawValue,ArrayValues.Wall.rawValue],[ArrayValues.Empty.rawValue,ArrayValues.Wall.rawValue,ArrayValues.Empty.rawValue,ArrayValues.Wall.rawValue],[ArrayValues.Gate.rawValue,ArrayValues.Wall.rawValue,ArrayValues.Empty.rawValue,ArrayValues.Empty.rawValue]]),
 ]
 
 for challenge in challanges {
