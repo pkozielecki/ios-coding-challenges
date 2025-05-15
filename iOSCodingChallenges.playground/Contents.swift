@@ -165,6 +165,11 @@ let challanges: [any Challenge] = [
     RottingOranges(data: [[2,0,1,0,1],[1,1,0,0,2],[0,1,1,1,1],[0,1,0,0,1]]),
     
     WallsAndGates(data: [[ArrayValues.Empty.rawValue,ArrayValues.Wall.rawValue,ArrayValues.Gate.rawValue,ArrayValues.Empty.rawValue],[ArrayValues.Empty.rawValue,ArrayValues.Empty.rawValue,ArrayValues.Empty.rawValue,ArrayValues.Wall.rawValue],[ArrayValues.Empty.rawValue,ArrayValues.Wall.rawValue,ArrayValues.Empty.rawValue,ArrayValues.Wall.rawValue],[ArrayValues.Gate.rawValue,ArrayValues.Wall.rawValue,ArrayValues.Empty.rawValue,ArrayValues.Empty.rawValue]]),
+    
+    KnightOnChessboard(data: [1, 3, 0, 0]),
+    KnightOnChessboard(data: [2, 3, 0, 0]),
+    KnightOnChessboard(data: [5, 3, 2, 2]),
+    KnightOnChessboard(data: [5, 1, 4, 4]),
 ]
 
 for challenge in challanges {
