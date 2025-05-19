@@ -170,6 +170,17 @@ let challanges: [any Challenge] = [
     KnightOnChessboard(data: [2, 3, 0, 0]),
     KnightOnChessboard(data: [5, 3, 2, 2]),
     KnightOnChessboard(data: [5, 1, 4, 4]),
+    
+    SuccessionLine(data: SuccessionLine.Monarchy(kingName: "John")),
+    SuccessionLine(data: {
+        let monarchy = SuccessionLine.Monarchy(kingName: "John")
+        monarchy.birth(childName: "Peter", parentName: "John")
+        monarchy.birth(childName: "Paul", parentName: "Peter")
+        monarchy.birth(childName: "Elle", parentName: "John")
+        monarchy.death(name: "John")
+        monarchy.death(name: "Peter")
+        return monarchy
+    }()),
 ]
 
 for challenge in challanges {
