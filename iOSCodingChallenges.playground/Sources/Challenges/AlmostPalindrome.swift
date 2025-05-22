@@ -1,8 +1,6 @@
 import Foundation
 
 public struct AlmostPalindrome: Challenge {
-    public typealias T = String
-
     public let data: String
 
     public init(data: String) {

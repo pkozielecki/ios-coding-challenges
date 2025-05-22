@@ -1,6 +1,4 @@
 public struct Keypad: Challenge {
-    public typealias T = [[Int]]
-
     public let data: [[Int]]
     public let code: [String]
 

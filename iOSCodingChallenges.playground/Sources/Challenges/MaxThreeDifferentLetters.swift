@@ -1,6 +1,4 @@
 public struct MaxThreeDifferentLetters: Challenge {
-    public typealias T = [String]
-
     public let data: [String]
 
     public init(data: [String]) {

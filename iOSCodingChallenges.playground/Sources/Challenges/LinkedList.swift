@@ -1,8 +1,6 @@
 import Foundation
 
 public struct LinkedList: Challenge {
-    public typealias T = Data
-
     public let data: Data
 
     public init(data: Data) {

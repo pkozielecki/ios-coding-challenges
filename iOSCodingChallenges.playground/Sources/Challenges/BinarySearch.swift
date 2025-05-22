@@ -1,8 +1,6 @@
 import Foundation
 
 public struct BinarySearch: Challenge {
-    public typealias T = [Int]
-
     public let data: [Int]
     public let target: Int
 

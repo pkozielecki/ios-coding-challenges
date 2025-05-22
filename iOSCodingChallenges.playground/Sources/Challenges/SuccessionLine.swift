@@ -1,8 +1,6 @@
 import Foundation
 
 public struct SuccessionLine: Challenge {
-    public typealias T = Monarchy
-
     public let data: Monarchy
 
     public init(data: Monarchy) {

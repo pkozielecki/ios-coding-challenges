@@ -1,8 +1,6 @@
 import Foundation
 
 public struct BubbleSort: Challenge {
-    public typealias T = [Int]
-
     public let data: [Int]
 
     public init(data: [Int]) {

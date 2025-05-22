@@ -1,8 +1,6 @@
 import Foundation
 
 public struct QuickSort: Challenge {
-    public typealias T = [Int]
-
     public let data: [Int]
 
     public init(data: [Int]) {

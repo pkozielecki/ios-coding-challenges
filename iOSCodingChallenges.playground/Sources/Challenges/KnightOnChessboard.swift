@@ -1,7 +1,6 @@
 import Foundation
 
 public struct KnightOnChessboard: Challenge {
-    public typealias T = [Int]
     private let N, k, startRow, startColumn: Int
 
     public let data: [Int]

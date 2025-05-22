@@ -1,8 +1,6 @@
 import Foundation
 
 public struct IndicesOfTwoValues: Challenge {
-    public typealias T = Data
-
     public let data: Data
 
     public init(data: Data) {
@@ -10,8 +8,7 @@ public struct IndicesOfTwoValues: Challenge {
     }
 
     public func execute() -> String {
-//        return "Indices: \(indicesIndexOf)"
-        return "Indices: \(indicesDiscionary)"
+        return "Indices: \(indicesDictionary)"
     }
 }
 
@@ -34,7 +31,7 @@ extension IndicesOfTwoValues {
         return []
     }
     
-    fileprivate var indicesDiscionary: [Int] {
+    fileprivate var indicesDictionary: [Int] {
         let values = data.array
         let target = data.sum
         guard data.array.count >= 2 else {
