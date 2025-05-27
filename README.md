@@ -218,6 +218,8 @@ let challanges: [any Challenge] = [
 - **Monarchy / Succession Line:** 
   Print succession line in a provided family / monarchy, described by a provided genealogical tree. 
   [more info](https://leetcode.com/problems/throne-inheritance/description/) 
+- **Car Park Manager:** 
+  Manage a car park that has spots for motorcycles, cars and vans. Motorcycles can park on any spot, cars on normal spots and spots for vans. Provide API for parking a vehicle, releasing a space, counting number of free spots of each type, and number of vehicles parked.
 
 ## License
 

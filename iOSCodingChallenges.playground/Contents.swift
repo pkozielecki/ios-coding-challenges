@@ -181,6 +181,29 @@ let challanges: [any Challenge] = [
         monarchy.death(name: "Peter")
         return monarchy
     }()),
+    
+    ParkingVehicles(data: ParkingVehicles.CarPark(compactSpaces: 0, regularSpaces: 0, largeSpaces: 0)),
+    ParkingVehicles(data: {
+        var carPark = ParkingVehicles.CarPark(compactSpaces: 2, regularSpaces: 2, largeSpaces: 2)
+        carPark.park(.motorCycle)
+        carPark.park(.van)
+        carPark.park(.car)
+        carPark.park(.motorCycle)
+        carPark.park(.car)
+        carPark.park(.van)
+        carPark.park(.van)
+        return carPark
+    }()),
+    ParkingVehicles(data: {
+        var carPark = ParkingVehicles.CarPark(compactSpaces: 1, regularSpaces: 1, largeSpaces: 0)
+        carPark.park(.motorCycle)
+        let reservation = carPark.park(.motorCycle)
+        carPark.park(.van)
+        carPark.free(reservation!)
+        carPark.park(.van)
+        carPark.park(.car)
+        return carPark
+    }()),
 ]
 
 for challenge in challanges {
